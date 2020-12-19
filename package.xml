@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>drone_msgs</name>
+  <version>0.0.0</version>
+  <description>Custom messages Airlitix Drone Protocols</description>
+  <maintainer email="andrew@airlitix.com">Andrew Dobson</maintainer>
+
+  <license>TODO</license>
+
+  <depend>tf</depend>
+  <depend>nav_msgs</depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>mavros_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>drone_common</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>mavros_msgs</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>drone_common</build_export_depend>
+  <build_export_depend>message_generation</build_export_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>mavros_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>drone_common</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+
+  <export></export>
+</package>
